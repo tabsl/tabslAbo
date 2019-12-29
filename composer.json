@@ -1,0 +1,29 @@
+{
+  "name": "tabsl/tabslabo",
+  "version": "1.0.0",
+  "description": "Mit diesem Modul haben Sie die Möglichkeit Ihren Kunden Abo-Bestellungen anzubieten, d. h. der Kunde tätigt einmal eine Bestellung, welcher er dann im gewünschten Intervall immer wieder geliefert bekommt.",
+  "type": "oxideshop-module",
+  "license": [
+    "proprietary"
+  ],
+  "homepage": "https://oxid-module.eu",
+  "author": [
+    {
+      "name": "Tobias Merkl",
+      "homepage": "https://oxid-module.eu"
+    }
+  ],
+  "support": {
+    "email": "support@oxid-module.eu"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tabsl\\Abo\\": "../../../source/modules/tabsl/tabslAbo"
+    }
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "tabsl/tabslAbo"
+    }
+  }
+}
